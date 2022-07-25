@@ -10,5 +10,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	<flow name="example1Flow" doc:id="e33dc457-55c2-4737-b298-04abdcbd284d" >
 		<http:listener doc:name="Listener" doc:id="60844193-be74-4153-9c14-f564031fa2bc" config-ref="HTTP_Listener_config" path="/test"/>
 		<set-payload value="test successfully" doc:name="Set Payload" doc:id="4e564abb-7777-40e3-994a-1668cfdf5b68" />
+		<set-payload value="good" doc:name="Set Payload" doc:id="b18cd0c8-6a94-4291-8564-42b1339af478" />
 	</flow>
 </mule>
